@@ -1,3 +1,18 @@
+@media screen and (max-width: 768px) {
+  .footer-wrapper{
+    flex-direction: column;
+  }
+
+  .social-icon{
+    margin-bottom: 5rem;
+  }
+  .footer-txt{
+    margin-bottom: 5rem;
+  }
+}
+
+
+
 @media screen and (max-width: 600px) {
     .navbar-list {
       width: 100%;
@@ -74,4 +89,14 @@
       }
     
      
+      .footer-wrapper{
+        flex-direction: column;
+      }
+
+      .social-icon{
+        margin-bottom: 5rem;
+      }
+      .footer-txt{
+        margin-bottom: 5rem;
+      }
 }
